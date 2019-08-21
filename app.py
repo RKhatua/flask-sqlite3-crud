@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database/tasks.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///tasks.db'
 
 db = SQLAlchemy(app)
 
